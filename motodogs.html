@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог мотобуксировщиков АЗИМУТ — Цены от производителя</title>
+    <style>
+        :root {
+            --bg-color: #121214;
+            --card-bg: #1a1a1e;
+            --accent-color: #ff5722;
+            --text-color: #ffffff;
+            --text-muted: #a0a0a5;
+            --success-color: #25d366;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
+        .nav-back { padding: 20px; background-color: #0b0b0d; border-bottom: 1px solid #26262b; }
+        .nav-back a { color: var(--text-muted); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+        .nav-back a:hover { color: var(--accent-color); }
+        .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+        .page-title { font-size: 2.5rem; font-weight: 800; text-align: center; margin-bottom: 10px; }
+        .page-title span { color: var(--accent-color); }
+        .page-subtitle { text-align: center; color: var(--text-muted); margin-bottom: 40px; font-size: 1.1rem; }
+        .category-title { font-size: 1.6rem; font-weight: 700; margin: 40px 0 20px; padding-left: 15px; border-left: 4px solid var(--accent-color); }
+        .catalog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; }
+        .product-card { background-color: var(--card-bg); border-radius: 14px; border: 1px solid #26262b; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s, border-color 0.3s; }
+        .product-card:hover { transform: translateY(-5px); border-color: var(--accent-color); }
+        .product-img { width: 100%; height: 230px; background-color: #0b0b0d; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 0.9rem; text-align: center; padding: 20px; border-bottom: 1px solid #26262b; background-size: cover; background-position: center; }
+        .product-info { padding: 25px; display: flex; flex-direction: column; flex-grow: 1; }
+        .product-title { font-size: 1.35rem; font-weight: 700; margin-bottom: 10px; height: 54px; display: flex; align-items: center; }
+        .product-price { font-size: 1.6rem; color: var(--accent-color); font-weight: 800; margin-bottom: 15px; }
+        .product-features { list-style: none; margin-bottom: 25px; flex-grow: 1; }
+        .product-features li { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 8px; display: flex; justify-content: space-between; border-bottom: 1px dashed #26262b; padding-bottom: 4px; }
+        .product-features li span { color: var(--text-color); font-weight: 600; }
+        .btn { display: block; text-align: center; padding: 12px 20px; font-size: 1rem; font-weight: 700; text-decoration: none; border-radius: 8px; transition: background 0.3s, transform 0.2s; }
+        .btn-order { background-color: var(--accent-color); color: white; border: none; width: 100%; cursor: pointer;}
+        .btn-order:hover { background-color: #e64a19; transform: scale(1.02); }
+        .video-block { background-color: var(--card-bg); border-radius: 12px; padding: 30px; border: 1px solid #26262b; text-align: center; margin-top: 60px; }
+        .video-placeholder { width: 100%; max-width: 750px; height: 420px; background-color: #0b0b0d; margin: 20px auto 0; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); border: 1px dashed #3a3a42; }
+        .cta-block { background: linear-gradient(135deg, #1a1a1e 0%, #0b0b0d 100%); padding: 40px; border-radius: 12px; text-align: center; border: 1px solid #26262b; margin-top: 50px; }
+        .btn-tg { background-color: #2481cc; color: white; padding: 15px 40px; display: inline-block; }
+        .btn-tg:hover { background-color: #1a66a4; }
+        footer { text-align: center; padding: 30px 20px; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid #26262b; margin-top: 60px; }
+    </style>
+</head>
+<body>
+    <div class="nav-back"><div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;"><a href="index.html">← Главная ГК АЗИМУТ</a></div></div>
+    <div class="container">
+        <h1 class="page-title">Выпуск и продажа <span>мотобуксировщиков</span></h1>
+        <p class="page-subtitle">Прямые отгрузки с завода готовой продукции. Гарантия лучшей цены без наценок автосалонов.</p>
+        
+        <div class="category-title">Зимняя спецтехника (Сезонное направление)</div>
+        <div class="catalog-grid">
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="product-info">
+                    <div class="product-title">Мотобуксировщик LIFAN 15 л.с.</div>
+                    <div class="product-price">78 500 ₽ <span style="font-size: 0.9rem; color: var(--text-muted); text-decoration: line-through; margin-left: 10px;">112 000 ₽</span></div>
+                    <ul class="product-features">
+                        <li>Комплектация: <span>Мотособака + Сани в подарок</span></li>
+                        <li>Двигатель: <span>LIFAN 15 л.с. (Электростартер)</span></li>
+                        <li>Ширина гусеницы: <span>500 мм (Усиленный корт)</span></li>
+                        <li>Особенности: <span>Проходимость по глубокому снегу</span></li>
+                    </ul>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать мотособаку</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-block">
+            <h2 style="font-size: 1.6rem; font-weight: 700; margin-bottom: 5px;">🎬 Видеоконтроль отгрузок</h2>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">Запись отправки партий со склада готовой продукции завода</p>
+            <div class="video-placeholder" style="flex-direction: column;">
+                <span style="font-size: 2.5rem; margin-bottom: 10px;">⚙️</span>
+                <div style="font-size: 1.1rem; font-weight: 700; text-transform: uppercase; color: #fff; letter-spacing: 1px;">Модуль трансляции в разработке</div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">Обновление серверов видеофиксации склада готовой продукции</div>
+            </div>
+        </div>
+
+        <div class="cta-block">
+            <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 15px;">Отдел распределения заявок</h2>
+            <p style="color: var(--text-muted); margin-bottom: 25px; font-size: 1.05rem;">Свяжитесь напрямую с руководителем логистического центра для оформления документов.</p>
+            <a href="https://t.me" class="btn btn-tg" target="_blank">Написать в Telegram</a>
+        </div>
+    </div>
+    <footer>
+        <p>© 2026 Производственное подразделение ГК «АЗИМУТ». Все права защищены.</p>
+    </footer>
+</body>
+</html>
