@@ -34,7 +34,7 @@
         .product-features li { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 8px; display: flex; justify-content: space-between; border-bottom: 1px dashed #26262b; padding-bottom: 4px; }
         .product-features li span { color: var(--text-color); font-weight: 600; }
         .btn { display: block; text-align: center; padding: 12px 20px; font-size: 1rem; font-weight: 700; text-decoration: none; border-radius: 8px; transition: background 0.3s, transform 0.2s; }
-        .btn-order { background-color: var(--accent-color); color: white; border: none; width: 100%; cursor: pointer;}
+        .btn-order { background-color: var(--accent-color); color: white; border: none; width: 100%; cursor: pointer; border-radius: 8px; }
         .btn-order:hover { background-color: #e64a19; transform: scale(1.02); }
         .video-block { background-color: var(--card-bg); border-radius: 12px; padding: 30px; border: 1px solid #26262b; text-align: center; margin-top: 60px; }
         .video-placeholder { width: 100%; max-width: 750px; height: 420px; background-color: #0b0b0d; margin: 20px auto 0; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); border: 1px dashed #3a3a42; }
@@ -50,20 +50,139 @@
         <h1 class="page-title">Выпуск и продажа <span>мотобуксировщиков</span></h1>
         <p class="page-subtitle">Прямые отгрузки с завода готовой продукции. Гарантия лучшей цены без наценок автосалонов.</p>
         
-        <div class="category-title">Зимняя спецтехника (Сезонное направление)</div>
+        <div class="category-title">Линейка «Лайт» (Компактные для одного-двух рыбаков)</div>
+        <div class="catalog-grid">
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="product-info">
+                    <div class="product-title">Мотособака «AZIMUT Компакт-9»</div>
+                    <div class="product-price">54 900 ₽</div>
+                    <ul class="product-features">
+                        <li>Двигатель: <span>LIFAN 9.0 л.с. (Ручной старт)</span></li>
+                        <li>Ширина гусеницы: <span>380 мм (Мини)</span></li>
+                        <li>Подвеска: <span>Катковая всесезонная</span></li>
+                        <li>Особенности: <span>Влезает в багажник хэтчбека</span></li>
+                    </ul>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать модель</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="product-info">
+                    <div class="product-title">Мотособака «AZIMUT Лайт-11»</div>
+                    <div class="product-price">63 000 ₽</div>
+                    <ul class="product-features">
+                        <li>Двигатель: <span>LIFAN 11 л.с. (Электростартер)</span></li>
+                        <li>Ширина гусеницы: <span>500 мм (Стандарт)</span></li>
+                        <li>Трансмиссия: <span>Вариатор Сафари</span></li>
+                        <li>Особенности: <span>Экономичный расход топлива</span></li>
+                    </ul>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать модель</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="product-info">
+                    <div class="product-title">Мотособака «AZIMUT Оптима-13»</div>
+                    <div class="product-price">69 900 ₽</div>
+                    <ul class="product-features">
+                        <li>Двигатель: <span>LIFAN 13 л.с. + катушка 7А</span></li>
+                        <li>Ширина гусеницы: <span>500 мм (Усиленная)</span></li>
+                        <li>Подвеска: <span>Катковая трехпружинная</span></li>
+                        <li>Особенности: <span>Фара светодиодная в комплекте</span></li>
+                    </ul>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать модель</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-title">Линейка «Оптима» (Универсальные рабочие лошадки)</div>
         <div class="catalog-grid">
             <div class="product-card">
                 <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
                 <div class="product-info">
                     <div class="product-title">Мотобуксировщик LIFAN 15 л.с.</div>
-                    <div class="product-price">78 500 ₽ <span style="font-size: 0.9rem; color: var(--text-muted); text-decoration: line-through; margin-left: 10px;">112 000 ₽</span></div>
+                    <div class="product-price">78 500 ₽</div>
                     <ul class="product-features">
                         <li>Комплектация: <span>Мотособака + Сани в подарок</span></li>
                         <li>Двигатель: <span>LIFAN 15 л.с. (Электростартер)</span></li>
                         <li>Ширина гусеницы: <span>500 мм (Усиленный корт)</span></li>
-                        <li>Особенности: <span>Проходимость по глубокому снегу</span></li>
+                        <li>Особенности: <span>Проходимость по наледи и пухляку</span></li>
                     </ul>
-                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать мотособаку</a>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать модель</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="product-info">
+                    <div class="product-title">Мотособака «AZIMUT Тайга-17»</div>
+                    <div class="product-price">86 000 ₽</div>
+                    <ul class="product-features">
+                        <li>Двигатель: <span>LIFAN 17 л.с. (Усиленный вал)</span></li>
+                        <li>Подвеска: <span>Универсальная (катки/склизы)</span></li>
+                        <li>Капот: <span>Морозостойкий стеклопластик</span></li>
+                        <li>Особенности: <span>Груз в санях до 450 кг</span></li>
+                    </ul>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать модель</a>
+                </div>
+            </div>
+        </div>
+        <div class="category-title">Линейка «Экстрим» (Тяжелые двухосные и склизовые монстры)</div>
+        <div class="catalog-grid">
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="product-info">
+                    <div class="product-title">Мотобуксировщик «AZIMUT Лонг-18.5»</div>
+                    <div class="product-price">94 000 ₽</div>
+                    <ul class="product-features">
+                        <li>Двигатель: <span>LIFAN KP460 (18.5 л.с.)專業</span></li>
+                        <li>База кузова: <span>Удлиненная рама 1450 мм</span></li>
+                        <li>Подвеска: <span>Склизовая регулируемая</span></li>
+                        <li>Особенности: <span>Для глубокого сырого снега</span></li>
+                    </ul>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать модель</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="product-info">
+                    <div class="product-title">Мотособака «AZIMUT Экстрим-20»</div>
+                    <div class="product-price">104 900 ₽</div>
+                    <ul class="product-features">
+                        <li>Двигатель: <span>LIFAN 20 л.с. двухцилиндровый</span></li>
+                        <li>Трансмиссия: <span>Двухрядная цепь в масляной ванне</span></li>
+                        <li>Грузоподъемность: <span>До 600 кг в 3-х санях</span></li>
+                        <li>Особенности: <span>Гидравлический тормоз, подогрев ручек</span></li>
+                    </ul>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать модель</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="product-info">
+                    <div class="product-title">Мотособака «AZIMUT Спец-Тягач 24»</div>
+                    <div class="product-price">124 000 ₽</div>
+                    <ul class="product-features">
+                        <li>Двигатель: <span>LIFAN 24 л.с. V-Twin Pro</span></li>
+                        <li>Ширина гусеницы: <span>Спарка 2х380 мм (Общая 760 мм)</span></li>
+                        <li>Подвеска: <span>Усиленная катковая жесткая</span></li>
+                        <li>Особенности: <span>Тянет лесозаготовки, целина любая</span></li>
+                    </ul>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать модель</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://unsplash.com');"></div>
+                <div class="product-info">
+                    <div class="product-title">Мотобуксировщик «AZIMUT Толкач-15»</div>
+                    <div class="product-price">112 000 ₽</div>
+                    <ul class="product-features">
+                        <li>Модуль в комплекте: <span>Амортизированное сиденье спереди</span></li>
+                        <li>Двигатель: <span>LIFAN 15 л.с. с электростартером</span></li>
+                        <li>Привод: <span>Переднее расположение модуля</span></li>
+                        <li>Особенности: <span>Управление как на снегоходе</span></li>
+                    </ul>
+                    <a href="https://t.me" class="btn btn-order" target="_blank">Заказать модель</a>
                 </div>
             </div>
         </div>
