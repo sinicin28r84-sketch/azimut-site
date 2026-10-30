@@ -31,7 +31,21 @@
         .product-title { font-size: 1.35rem; font-weight: 700; margin-bottom: 10px; height: 54px; display: flex; align-items: center; }
         .product-price { font-size: 1.6rem; color: var(--accent-color); font-weight: 800; margin-bottom: 15px; }
         .product-features { list-style: none; margin-bottom: 25px; flex-grow: 1; }
-        .product-features li { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 8px; display: flex; justify-content: space-between; border-bottom: 1px dashed #26262b; padding-bottom: 4px; }
+        .product-features li { 
+    color: var(--text-muted); 
+    font-size: 0.95rem; 
+    margin-bottom: 12px; 
+    display: flex; 
+    flex-direction: column;
+    border-bottom: 1px dashed #26262b; 
+    padding-bottom: 6px; 
+}
+.product-features li div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
         .product-features li span { color: var(--text-color); font-weight: 600; }
         .btn { display: block; text-align: center; padding: 12px 20px; font-size: 1rem; font-weight: 700; text-decoration: none; border-radius: 8px; transition: background 0.3s, transform 0.2s; }
         .btn-order { background-color: var(--accent-color); color: white; border: none; width: 100%; cursor: pointer; border-radius: 8px; }
